@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="src/ClientMicroservice.Domain/ClientMicroservice.Domain.csproj" />
+  <Project Path="src/ClientMicroservice.Application/ClientMicroservice.Application.csproj" />
+  <Project Path="src/ClientMicroservice.Infrastructure/ClientMicroservice.Infrastructure.csproj" />
+  <Project Path="src/ClientMicroservice.Contracts/ClientMicroservice.Contracts.csproj" />
+  <Project Path="src/ClientMicroservice.API/ClientMicroservice.API.csproj" />
+  <Project Path="tests/ClientMicroservice.UnitTests/ClientMicroservice.UnitTests.csproj" />
+  <Project Path="tests/ClientMicroservice.IntegrationTests/ClientMicroservice.IntegrationTests.csproj" />
+</Solution>
