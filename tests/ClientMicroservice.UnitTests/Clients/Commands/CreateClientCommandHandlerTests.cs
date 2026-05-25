@@ -16,8 +16,8 @@ public sealed class CreateClientCommandHandlerTests
     private readonly Mock<IEventBus> _eventBusMock = new();
     private readonly CreateClientCommandHandler _handler;
 
-    private static readonly Address _address = new("123 Main St", "Springfield", "IL", "62701", "US");
-    private static readonly BankingDetails _banking = new("0001", "12345-6");
+    private readonly Address _address = new("123 Main St", "Springfield", "IL", "62701", "US");
+    private readonly BankingDetails _banking = new("0001", "12345-6");
 
     public CreateClientCommandHandlerTests()
     {
